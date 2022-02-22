@@ -1,0 +1,95 @@
+body {
+    font-family: Work Sans, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    background-color: #ffffff;
+}
+
+.calc {
+    margin: 100px auto;
+    padding: 21px 20px 25px;
+    width: 364px;
+    height: 582px;
+    background-color: #17171C;
+
+}
+
+.calc__display {
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-bottom: 16px;
+    font-weight: 300;
+    font-size: 96px;
+    line-height: 96px;
+    text-align: right;
+    color: #ffffff;
+}
+
+.calc__btn-keys {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 16px;
+}
+
+.btn {
+    color: #ffffff;
+    background-color: #2E2F38;
+    border: transparent;
+    font-size: 32px;
+    line-height: 40px;
+    width: 69px;
+    height: 72px;
+    border-radius: 24px;
+    transition: background-color .3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #4E505F;
+}
+
+.btn:active {
+    color: #000;
+    background-color: #fff;
+}
+
+.btn-erase {
+    position: relative;
+}
+
+.btn-erase svg {
+    position: absolute;
+    top: 20px;
+    left: 18px;
+}
+
+.btn-erase:active svg path {
+    fill: #000;
+}
+
+.btn-oper,
+.btn-equals {
+    background-color: #4B5EFC;
+    transition: background-color .3s ease-in-out;
+}
+
+.btn-oper:hover {
+    background-color: #6b7eff;
+}
+
+.btn-oper:active {
+    color: #000;
+    background-color: #fff;
+}
+
+.btn-clear {
+    text-transform: uppercase;
+    width: 153px;
+}
+
+.btn-zero {
+    width: 238px;
+}
